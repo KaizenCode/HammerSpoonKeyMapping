@@ -28,3 +28,4 @@ hs.hotkey.bind({"cmd", "shift"}, ';', keyCode('right', {'cmd', "shift"}), nil, k
 hs.hotkey.bind({"cmd", "shift"}, 'u', keyCode('pageup', {"shift"}), nil, keyCode('pageup', {'shift'}))
 hs.hotkey.bind({"cmd", "shift"}, 'o', keyCode('pagedown', {"shift"}), nil, keyCode('pagedown', {'shift'}))
 
+hs.hotkey.bind({"cmd"}, '\'', keyCode('escape', nil, keyCode('escape')))
